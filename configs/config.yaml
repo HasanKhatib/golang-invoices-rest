@@ -1,0 +1,12 @@
+# Database configuration
+database:
+  host: localhost
+  port: 54320
+  username: postgres
+  password: my_pass
+  name: go_rest
+
+# Server configuration
+server:
+  port: 8080
+  timeout: 30s
