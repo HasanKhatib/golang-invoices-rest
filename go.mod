@@ -1,4 +1,4 @@
-module hasanalkhatib/rest-service
+module hasankhatib/golang-invoices-rest
 
 go 1.20
 

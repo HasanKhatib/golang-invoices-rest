@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"hasanalkhatib/rest-service/internal/config"
-	"hasanalkhatib/rest-service/internal/db"
-	"hasanalkhatib/rest-service/internal/models"
+	"hasankhatib/golang-invoices-rest/internal/config"
+	"hasankhatib/golang-invoices-rest/internal/db"
+	"hasankhatib/golang-invoices-rest/internal/models"
 )
 
 func main() {

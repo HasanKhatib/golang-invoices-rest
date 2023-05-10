@@ -13,3 +13,7 @@
 
 # Dependency directories
 vendor/
+
+# build files
+/invoices-rest
+/invoiceserver

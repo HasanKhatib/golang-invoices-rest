@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"hasanalkhatib/rest-service/internal/config"
+	"hasankhatib/golang-invoices-rest/internal/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

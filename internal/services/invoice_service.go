@@ -1,8 +1,8 @@
 package services
 
 import (
-	"hasanalkhatib/rest-service/internal/models"
-	"hasanalkhatib/rest-service/internal/repositories"
+	"hasankhatib/golang-invoices-rest/internal/models"
+	"hasankhatib/golang-invoices-rest/internal/repositories"
 )
 
 // InvoiceService represents the service for managing invoices

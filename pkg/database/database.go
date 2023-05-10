@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"hasanalkhatib/rest-service/internal/models"
+	"hasankhatib/golang-invoices-rest/internal/models"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

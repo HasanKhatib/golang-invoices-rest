@@ -1,7 +1,7 @@
 package repositories
 
 import (
-	"hasanalkhatib/rest-service/internal/models"
+	"hasankhatib/golang-invoices-rest/internal/models"
 	"gorm.io/gorm"
 )
 

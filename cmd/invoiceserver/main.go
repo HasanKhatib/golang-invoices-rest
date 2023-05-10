@@ -7,11 +7,11 @@ import (
 	"database/sql"
 
 	"github.com/gorilla/mux"
-	"hasanalkhatib/rest-service/internal/config"
-	"hasanalkhatib/rest-service/internal/db"
-	"hasanalkhatib/rest-service/internal/handlers"
-	"hasanalkhatib/rest-service/internal/repositories"
-	"hasanalkhatib/rest-service/internal/services"
+	"hasankhatib/golang-invoices-rest/internal/config"
+	"hasankhatib/golang-invoices-rest/internal/db"
+	"hasankhatib/golang-invoices-rest/internal/handlers"
+	"hasankhatib/golang-invoices-rest/internal/repositories"
+	"hasankhatib/golang-invoices-rest/internal/services"
 
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database/postgres"

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"github.com/gorilla/mux"
 	
-	"hasanalkhatib/rest-service/internal/models"
-	"hasanalkhatib/rest-service/internal/services"
+	"hasankhatib/golang-invoices-rest/internal/models"
+	"hasankhatib/golang-invoices-rest/internal/services"
 )
 
 // InvoicesHandler handles the requests related to invoices
