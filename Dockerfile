@@ -14,7 +14,7 @@ RUN go mod download
 COPY . .
 
 # Build the Go application
-RUN go build -o invoiceserver ./cmd/invoiceserver
+RUN go build -o golang-invoices-rest ./cmd/invoiceserver
 
 # Use a minimal base image for the final container
 FROM alpine:latest
@@ -23,10 +23,10 @@ FROM alpine:latest
 WORKDIR /app
 
 # Copy the executable from the builder stage
-COPY --from=builder /app/invoiceserver .
+COPY --from=builder /app/golang-invoices-rest .
 
 # Expose the port the application listens on
 EXPOSE 8080
 
 # Set the entry point for the container
-CMD ["./invoiceserver"]
+CMD ["./golang-invoices-rest"]

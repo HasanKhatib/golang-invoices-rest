@@ -1,12 +1,12 @@
 # Rest Service
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/hasankhatib/golang-invoices-rest)](https://goreportcard.com/report/github.com/hasankhatib/golang-invoices-rest)
-[![Build Status](https://github.com/hasankhatib/golang-invoices-rest/workflows/Build/badge.svg)](https://github.com/hasankhatib/golang-invoices-rest/actions)
+[![Build and Push Docker Image](https://github.com/HasanKhatib/golang-invoices-rest/actions/workflows/docker-build-push.yml/badge.svg)](https://github.com/HasanKhatib/golang-invoices-rest/actions/workflows/docker-build-push.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/HasanKhatib/golang-invoices-rest)](https://goreportcard.com/report/github.com/HasanKhatib/golang-invoices-rest)
 [![Docker Build](https://img.shields.io/docker/cloud/build/hasankhatib/golang-invoices-rest)](https://hub.docker.com/r/hasankhatib/golang-invoices-rest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/HasanKhatib/golang-invoices-rest)](https://github.com/HasanKhatib/golang-invoices-rest/blob/main/LICENSE)
 
 
-## Exercise Description
+## GoLang REST
 
 This project is a RESTful service built with Go. It serves as an exercise to learn and practice Go programming language.
 
@@ -56,7 +56,11 @@ To run the application using Docker Compose, follow these steps:
 
    ```bash
    docker-compose up
-
+   ```
+4. Once the containers are up and running, you can access the application using the following URL:
+    ```bash
+    http://localhost:8080
+    ```
 
 ## Docker
 You can also run the application using Docker. Follow these steps:
